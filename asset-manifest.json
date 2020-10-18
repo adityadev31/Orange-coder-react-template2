@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Orange-coder-react-template2/static/css/main.223ddf8a.chunk.css",
+    "main.js": "/Orange-coder-react-template2/static/js/main.d584daae.chunk.js",
+    "main.js.map": "/Orange-coder-react-template2/static/js/main.d584daae.chunk.js.map",
+    "runtime-main.js": "/Orange-coder-react-template2/static/js/runtime-main.c18871a8.js",
+    "runtime-main.js.map": "/Orange-coder-react-template2/static/js/runtime-main.c18871a8.js.map",
+    "static/js/2.39635143.chunk.js": "/Orange-coder-react-template2/static/js/2.39635143.chunk.js",
+    "static/js/2.39635143.chunk.js.map": "/Orange-coder-react-template2/static/js/2.39635143.chunk.js.map",
+    "index.html": "/Orange-coder-react-template2/index.html",
+    "precache-manifest.86253e80a4b83ab69b0adfbacd7e8624.js": "/Orange-coder-react-template2/precache-manifest.86253e80a4b83ab69b0adfbacd7e8624.js",
+    "service-worker.js": "/Orange-coder-react-template2/service-worker.js",
+    "static/css/main.223ddf8a.chunk.css.map": "/Orange-coder-react-template2/static/css/main.223ddf8a.chunk.css.map",
+    "static/js/2.39635143.chunk.js.LICENSE.txt": "/Orange-coder-react-template2/static/js/2.39635143.chunk.js.LICENSE.txt",
+    "static/media/Orange-coder-logo-1.png": "/Orange-coder-react-template2/static/media/Orange-coder-logo-1.ad469480.png",
+    "static/media/Orange-coder-logo-2.png": "/Orange-coder-react-template2/static/media/Orange-coder-logo-2.7aae0755.png",
+    "static/media/Home.css": "/Orange-coder-react-template2/static/media/serv-img-5.5a3f7a42.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c18871a8.js",
+    "static/js/2.39635143.chunk.js",
+    "static/css/main.223ddf8a.chunk.css",
+    "static/js/main.d584daae.chunk.js"
+  ]
+}
