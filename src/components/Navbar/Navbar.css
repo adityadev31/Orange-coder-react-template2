@@ -1,0 +1,120 @@
+:root{
+    --nav-up-height : 4rem;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.nav__box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: var(--nav-up-height);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.nav__logo{
+    width: 60px;
+}
+
+.nav__search__bar{
+    width: calc(100vw - 500px);
+    height: 3rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__search__bar input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.nav__search__bar input:focus{
+    outline: none !important;
+    border: none !important;
+}
+
+
+.search__icon{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ccc;
+}
+
+
+.nav__studio{
+    font-size: 1.5rem;
+    color: darkorange;
+    margin-right: 1rem;
+    transition: all 0.4s ease-in;
+}
+
+.nav__login{
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background-color: darkorange;
+    color: #fff;
+    transition: all 0.4s ease-in;
+}
+
+.nav__studio:hover{
+    color: orange;
+    transform: scale(1.1) !important;
+}
+.nav__login:hover{
+    background-color: orange;
+    transform: scale(1.1) !important;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+
+.nav__lower{
+    position: fixed;
+    top: var(--nav-up-height);
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    background: darkorange;
+    z-index: 999;
+}
+.nav__links{
+    color: rgba(255, 255, 255, 0.836);
+    position: relative;
+    padding-bottom: 5px;
+    transition: all 0.4s ease-in;
+}
+.nav__links::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.4s ease-in;
+}
+.nav__links:hover{
+    color: #fff;
+}
+.nav__links:hover::before{
+    width: 90%;
+}
